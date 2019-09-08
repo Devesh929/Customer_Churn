@@ -35,64 +35,59 @@ Enter the login credentials provided above, **note** that entering wrong credent
 
 Now , user will have the choice of entering request data.
 
-![screenshot 5](https://user-images.githubusercontent.com/31181537/45589992-39508a00-b94d-11e8-99df-4616c139778c.png)
+
 
 
 Through Default File , we have provided a sample testing file-  ```testtestdefault1``` , located in the `default` folder for the user , which is of this format:
 
-![capture](https://user-images.githubusercontent.com/31181537/45590054-00fd7b80-b94e-11e8-891e-dfa83be5e3a8.JPG)
+
 
 
 As shown , the file requires these entries , along with an empty column of  **Exited** which represents exiting probability from 0-1.
 
 Now, on clicking **Predict** , a dropdown menu consisting of all employee-ids is available. <br> We have also provided the feature of **Show Top X%** most likely to leave, which will depend on percentage of total data required by a user . Along with it are sample buttons which show selective-data ex. TOP-2 , TOP-4 likely to leave customers.
 
-![screenshot 16](https://user-images.githubusercontent.com/31181537/45590066-3d30dc00-b94e-11e8-80f5-dea5d8ee7542.png)
 
 
 Select any customer from drop-down menu and click **Predict** -
 
-![untitled](https://user-images.githubusercontent.com/31181537/45590294-188b3300-b953-11e8-9622-aaf0ef696612.png)
 
 
 A data-visualised meter showing churn-risk (low-medium-high) , along with top reasons for leaving and details of customers is shown.
 To try out more features , user can **Go Back** to previous stage.<br>
 User may enter required percentage and **Show** - 
 
-![screenshot 19](https://user-images.githubusercontent.com/31181537/45590129-70c03600-b94f-11e8-982f-6ef4fb0eccfc.png)
+
 
 Visualisation of required *top x%* of people likely to leave appears , through which user can be redirected to the result page on clicking and generating a link of the respective Customer through Customer ID by clicking the interactive bar-graphs .
 
 A sample of **TOP 2** - 
-![screenshot 20](https://user-images.githubusercontent.com/31181537/45590157-0d82d380-b950-11e8-9a10-68811f7ee119.png)
+
 
 Similarly , viewing **TOP 4** - 
-![screenshot 21](https://user-images.githubusercontent.com/31181537/45590161-2db29280-b950-11e8-8581-795f6ea4b61e.png)
+
 
 Also through the feature of **Upload Test Data File** , one can choose his/her own test requirements for prediction and analysis.
 We have provided a sample ```uploadtest.csv``` for the user.
 
-![screenshot 23](https://user-images.githubusercontent.com/31181537/45590177-67839900-b950-11e8-9c75-e08106d9b7df.png)
+
 
 
 As usual , you can select any customer for whom you want to calculate the risk.
 **Keep in mind**- The user testdata file must be of **same format** as that of the sample shown.
 
-![screenshot 8](https://user-images.githubusercontent.com/31181537/45590184-88e48500-b950-11e8-840e-961a0c9fe148.png)
+
 
 
 It shows the prediction further , smiliar to Default file shown :
 
-![screenshot 9](https://user-images.githubusercontent.com/31181537/45590205-11fbbc00-b951-11e8-943f-c1ca11135468.png)
 
 
 
 
 As shown , the **Enter input X%** is still available , along with interactive data representation . 
 
-![screenshot 11](https://user-images.githubusercontent.com/31181537/45590218-55eec100-b951-11e8-89b5-be93f154c6b2.png)
 
-![screenshot 12](https://user-images.githubusercontent.com/31181537/45590220-571fee00-b951-11e8-895b-bb1b33759e49.png)
 
 When done , customer can **Logout** anytime .
 
